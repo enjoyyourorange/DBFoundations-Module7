@@ -1,2 +1,9 @@
 # DBFoundations-Module7
-I'll take a 0 for posting my essay. Don't want any of my writing public.
+# Introduction
+I don't want my any writings public.
+
+# Body 
+I understand the assignment.
+
+# Conclusion
+I'll take a zero for this portion.
