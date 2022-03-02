@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/enjoyyourorange/DBFoundations-Module7/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/enjoyyourorange/DBFoundations-Module7/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Introduction
+Assignment # 7: Functions
+Functions can be baked into the RDMS software, or you can create them yourself. The benefit of functions is that they are re-usable and it’s much quicker to reference a function that already exists than manually creating equations such as sums or averages.
+User Defined Functions (UDFs)
+User defined functions are handy in that they are modular in that you can alter them based on whether your dataset changes. They’re also convenient when it will be a script that you would be writing often. Say you have an employee on a PIP, rather than writing a script to see what their daily output was every weekday, you could create a function that would pull the employee’s production that day without having to write a new query.
+Scalar, Inline, and Multi-Statement Functions
+Scalar functions will return only a single value. Inline functions can return a set of values from a single SELECT statement, and that SELECT statement does not necessitate you structure the table that will be returned. With Multi-statement, or MSTVFs, you have to include the syntax that will construct the table your function returns. MSTVF’s also require a BEGIN and END syntax.
+Summary
+We discussed, generally, user defined functions and spoke to some of their variations. Functions are very convenient as they reduce code redundancy.
