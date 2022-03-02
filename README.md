@@ -1,6 +1,6 @@
 # DBFoundations-Module7
 # Introduction
-I don't feel comfortable with my writings published online. 
+I don't feel comfortable with my course writings published online. 
 
 # Body 
 I understand the assignment.
